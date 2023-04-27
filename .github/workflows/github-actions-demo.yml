@@ -1,7 +1,8 @@
 name: 01-1. GitHub Actions Demo
 on: 
   workflow_dispatch:
-  workflow_call:  
+  workflow_call:
+    
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
